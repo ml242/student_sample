@@ -6,7 +6,7 @@ body {
 
 .filmstrip {
 	width: 100%;
-	overflow: hidden;
+	overflow: inherit;
 }
 
 .left-button {
