@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>I'm just a simple webpage.</title>
+
+
+	<!-- 1. I'm using Normalize to nullify any browser effects, it's kind of a css boilerplate -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- 2. the styles I'm about to use -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+
+</head>
+<body>
+	
+	<p>Hello, World</p>
+
+	<!-- Before the body closes, connect to my javascript file so it's aware of everything on the page that has already loaded. This is a bit redundant as 
+	$(function(){
+	
+	}); 
+	does the same thing, buit it's an old habit for me. 
+	-->
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
