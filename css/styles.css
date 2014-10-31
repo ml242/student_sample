@@ -3,3 +3,16 @@
 body {
 	background-color: orange;
 }
+
+.filmstrip {
+	width: 100%;
+	overflow: hidden;
+}
+
+.left-button {
+	float: left;
+}
+
+.right-button {
+	float: right;
+}
